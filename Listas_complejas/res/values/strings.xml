@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Listas_complejas</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title1">Reparación de ordenadores</string>
+	<string name="title2">Programación en java y android</string>
+	<string name="title3">Administración de Sistemas Linux y Windows</string>
+	
+	<string name="description1">Hacemos cualquier tipo de reparaciones a cualquier tipo de ordenadores a un precio asequible</string>
+	<string name="description2">Programamos desde páginas webs hasta programas en android</string>
+	<string name="description3">Administramos sistemas llevo acabo el mantenimineto y instalación de ordenadores. Tanto servidores como clientes,
+		manejo instalación de Servidores como Windows Server 2003, 2008, y cualquier distribución Linux. Tambien instalamos otros como servidores de correo y ftp.</string>
+</resources>

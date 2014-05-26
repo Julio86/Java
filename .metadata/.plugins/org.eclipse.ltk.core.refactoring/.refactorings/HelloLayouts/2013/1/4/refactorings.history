@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;HelloLayouts/res/layout/activity_main.xml&apos; to &apos;HelloLayouts&apos;" description="Rename resource &apos;activity_main.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_main.xml" name="HelloLayouts" stamp="1359277594983" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;HelloLayouts/res/drawable-hdpi/yo9wh0ui.bmp&apos; to &apos;user.png&apos;" description="Rename resource &apos;yo9wh0ui.bmp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-hdpi/yo9wh0ui.bmp" name="user.png" stamp="1359281867107" updateReferences="true"/>
+</session>

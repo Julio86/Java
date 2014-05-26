@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Prueba_Listas</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="hello">hello</string>
+	<string name="prueba2">prueba2</string>
+	<string name="prueba3">prueba3</string>
+	<string name="prueba4">prueba4</string>
+	<string name="prueba">prueba</string>
+
+</resources>

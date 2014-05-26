@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Maps_Google</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="hello">Hola Gps</string>
+	<string name="map_key">006di3Qm13L6OrnPNb-jn9M-I1tfAdp4aUtjMfQ</string>
+</resources>
