@@ -9,5 +9,7 @@
 	<string name="prueba3">prueba3</string>
 	<string name="prueba4">prueba4</string>
 	<string name="prueba">prueba</string>
+	<string name="texto_prueba">Texto prueba</string>
+	<string name="bot_n">Botón</string>
 
 </resources>

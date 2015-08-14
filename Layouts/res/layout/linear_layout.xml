@@ -9,14 +9,14 @@
  <TextView
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
-	android:text="Texto prueba"
+	android:text="@string/texto_prueba"
 	android:background="#FFFFFFFF"
 	android:layout_weight="1"
 	/>
   <Button
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
-	android:text="Botón"
+	android:text="@string/bot_n"
 	android:layout_weight="1"
   />
 </LinearLayout>
