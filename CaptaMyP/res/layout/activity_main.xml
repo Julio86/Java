@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainView">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:text="CaptaMyP"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+ 
+    <TableLayout
+       android:id="@+id/tableView"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:gravity="center"
+       android:stretchColumns="1"
+       android:layout_marginTop="20dp"
+       android:padding = "20dp"
+       android:layout_below="@+id/textTitle">
+       <TableRow
+          android:layout_marginBottom="12dp">
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:text="Usuario"
+              android:textSize="24sp"
+              android:textStyle="bold"
+              android:typeface="normal" />
+ 
+          <EditText
+             android:id="@+id/UserText"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:inputType="text" />
+       </TableRow>
+       <TableRow>
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:paddingRight="10dp"
+              android:text="Contraseña"
+              android:textSize="24sp"
+              android:textStyle="bold"
+              android:typeface="normal" />
+ 
+         <EditText
+             android:id="@+id/PassText"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:inputType="textPassword"/>
+      </TableRow>
+      <TableRow
+         android:gravity="center"
+         android:paddingTop="25dp">
+
+         <Button
+             android:id="@+id/buttonLogIn2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Acceder" />
+      </TableRow>
+   </TableLayout>
+</RelativeLayout>
