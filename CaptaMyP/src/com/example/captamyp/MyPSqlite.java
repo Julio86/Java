@@ -10,6 +10,7 @@ import android.util.Log;
 public class MyPSqlite extends SQLiteOpenHelper {
 	
 	public static final String TABLE_ARTICULOS = "articulos";
+	
 	  public static final String COLUMN_ID = "_id";
 	  public static final String COLUMN_ARTICULOS = "articulos";
 	  public static final String COLUMN_BULTOS = "bultos";
@@ -19,6 +20,7 @@ public class MyPSqlite extends SQLiteOpenHelper {
 	  public static final String COLUMN_ETIQUETAS = "etiquetas";
 	  public static final String COLUMN_CODVENDEDOR = "codvendedor";
 	  public static final String COLUMN_CODART = "codart";
+	 
 	  
 	  private static final String DATABASE_NAME = "MyP.db";
 	  private static final int DATABASE_VERSION = 1;
@@ -30,6 +32,7 @@ public class MyPSqlite extends SQLiteOpenHelper {
 	      + " text not null," + COLUMN_BULTOS + "interger," +  COLUMN_CODART + "integer," + COLUMN_UNIDADES + "interger," + COLUMN_SERIE + 
 	      "text," + COLUMN_NUMERO + "interger," + COLUMN_ETIQUETAS + "text," + ");";
 
+	  
 	  public MyPSqlite(Context context) {
 	    super(context, DATABASE_NAME, null, DATABASE_VERSION);
 	  }
@@ -38,6 +41,7 @@ public class MyPSqlite extends SQLiteOpenHelper {
 	  public void onCreate(SQLiteDatabase database) {
 	    database.execSQL(DATABASE_CREATE);
 	  }
+
 
 	  @Override
 	  public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

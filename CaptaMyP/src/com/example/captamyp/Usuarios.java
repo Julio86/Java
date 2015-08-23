@@ -23,6 +23,10 @@ public class Usuarios {
 	public void setCodvendedor(int codvendedor) {
 		this.codvendedor = codvendedor;
 	}
+	public void setId(int int1) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
